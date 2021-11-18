@@ -1,0 +1,16 @@
+E:\Workstation\to-do-list\WebSocket\WS.Client\bin\Debug\net5.0\WS.Client.exe
+E:\Workstation\to-do-list\WebSocket\WS.Client\bin\Debug\net5.0\WS.Client.deps.json
+E:\Workstation\to-do-list\WebSocket\WS.Client\bin\Debug\net5.0\WS.Client.runtimeconfig.json
+E:\Workstation\to-do-list\WebSocket\WS.Client\bin\Debug\net5.0\WS.Client.runtimeconfig.dev.json
+E:\Workstation\to-do-list\WebSocket\WS.Client\bin\Debug\net5.0\WS.Client.dll
+E:\Workstation\to-do-list\WebSocket\WS.Client\bin\Debug\net5.0\ref\WS.Client.dll
+E:\Workstation\to-do-list\WebSocket\WS.Client\bin\Debug\net5.0\WS.Client.pdb
+E:\Workstation\to-do-list\WebSocket\WS.Client\obj\Debug\net5.0\WS.Client.csproj.AssemblyReference.cache
+E:\Workstation\to-do-list\WebSocket\WS.Client\obj\Debug\net5.0\WS.Client.GeneratedMSBuildEditorConfig.editorconfig
+E:\Workstation\to-do-list\WebSocket\WS.Client\obj\Debug\net5.0\WS.Client.AssemblyInfoInputs.cache
+E:\Workstation\to-do-list\WebSocket\WS.Client\obj\Debug\net5.0\WS.Client.AssemblyInfo.cs
+E:\Workstation\to-do-list\WebSocket\WS.Client\obj\Debug\net5.0\WS.Client.csproj.CoreCompileInputs.cache
+E:\Workstation\to-do-list\WebSocket\WS.Client\obj\Debug\net5.0\WS.Client.dll
+E:\Workstation\to-do-list\WebSocket\WS.Client\obj\Debug\net5.0\ref\WS.Client.dll
+E:\Workstation\to-do-list\WebSocket\WS.Client\obj\Debug\net5.0\WS.Client.pdb
+E:\Workstation\to-do-list\WebSocket\WS.Client\obj\Debug\net5.0\WS.Client.genruntimeconfig.cache
