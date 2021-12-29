@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "aaf8b944-41e8-4cef-abcc-38cb4d107856": {
+      "ProjectGuid": "aaf8b944-41e8-4cef-abcc-38cb4d107856",
+      "DisplayName": "WS.server",
+      "ColorIndex": 0
+    },
+    "37ddf1d9-3547-4cba-85f6-60e227199333": {
+      "ProjectGuid": "37ddf1d9-3547-4cba-85f6-60e227199333",
+      "DisplayName": "WS.Client",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
+    },
+    "7d3f17e5-ccf9-48f5-828f-babd4ed24295": {
+      "ProjectGuid": "7d3f17e5-ccf9-48f5-828f-babd4ed24295",
+      "DisplayName": "WS.server.SignalIR",
+      "ColorIndex": 2
+    },
+    "e6d68a7f-f559-4f8d-9d11-120f5dda839f": {
+      "ProjectGuid": "e6d68a7f-f559-4f8d-9d11-120f5dda839f",
+      "DisplayName": "WS.Server.SignalIR",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

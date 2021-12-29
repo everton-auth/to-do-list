@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "nIgnKGmPz9440vnX4oJJNiz5gcvdIofsK4MlAhF27mmwACPLMO9xlUcb/j23xOn5gq2gNwPTymtAxzsKfFqAgA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\everton.auth\\Workstation\\to-do-list\\WebSocket\\WS.Server.SignalIR\\WS.Server.SignalIR.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\everton.auth\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\5.0.12\\microsoft.aspnetcore.connections.abstractions.5.0.12.nupkg.sha512",
+    "C:\\Users\\everton.auth\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.12\\microsoft.aspnetcore.http.features.5.0.12.nupkg.sha512",
+    "C:\\Users\\everton.auth\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\5.0.12\\microsoft.aspnetcore.signalr.common.5.0.12.nupkg.sha512",
+    "C:\\Users\\everton.auth\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\everton.auth\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\everton.auth\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\everton.auth\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
