@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WS.server", "WS.server.cspr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WS.Client", "..\WS.Client\WS.Client.csproj", "{37DDF1D9-3547-4CBA-85F6-60E227199333}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WS.Server.SignalIR", "..\WS.Server.SignalIR\WS.Server.SignalIR.csproj", "{E6D68A7F-F559-4F8D-9D11-120F5DDA839F}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{37DDF1D9-3547-4CBA-85F6-60E227199333}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37DDF1D9-3547-4CBA-85F6-60E227199333}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37DDF1D9-3547-4CBA-85F6-60E227199333}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E6D68A7F-F559-4F8D-9D11-120F5DDA839F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E6D68A7F-F559-4F8D-9D11-120F5DDA839F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E6D68A7F-F559-4F8D-9D11-120F5DDA839F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E6D68A7F-F559-4F8D-9D11-120F5DDA839F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

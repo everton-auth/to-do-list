@@ -1,0 +1,15 @@
+<mat-toolbar color="primary" fxLayout="row" fxLayoutAlign="start end" fxFlex="100% 60px">
+    <span>To-Do-List</span>
+</mat-toolbar>
+<span fxLayoutAlign="center center" fxLayout="column" style="margin-top: 10px;">
+    <mat-form-field appearance="fill">
+        <mat-label>Tarefa</mat-label>
+        <input matInput [(ngModel)]="mensagem">
+    </mat-form-field>
+    <button mat-raised-button color="primary" style="width: 25%;" (click)="clicked()">Enviar</button>
+</span>
+<div fxflex fxLayout="column" fxLayoutAlign=" start center">
+    <mat-card class="list" fxFlex="40px 200px">
+        a
+    </mat-card>
+</div>
