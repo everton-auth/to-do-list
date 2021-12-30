@@ -1,20 +1,27 @@
 import { Injectable } from '@angular/core';
-import { Subject } from 'rxjs';
-import { webSocket } from "rxjs/webSocket";
+import { HubConnection, HubConnectionBuilder } from '@microsoft/signalr';
 
 @Injectable({
   providedIn: 'root'
 })
 export class Websocket {
   constructor() { }
-  wsURI: string = "ws://10.0.0.233:5000/ws";
+  wsURI: string = "http://localhost:5000/teste";
+  conexao = new HubConnectionBuilder().withUrl(this.wsURI).build();
+  messages: any[] = [];
 
-  startWS() {
-    return webSocket(this.wsURI)
+  StartConnection() {
+    this.conexao.on('newMessage', (chat: string, message: string) => {
+      this.messages.push({
+        text: message,
+        user: chat
+      })
+    })
+    console.log(this.conexao.state);
+    this.conexao.start();
   }
-
-  msg(subject: Subject<any>, mensagem: string) {
-    subject.next(mensagem);
+  EnviarMesnagem(mensagem: string) {
+   this.conexao.send("newMessage", mensagem);
   }
 }
 

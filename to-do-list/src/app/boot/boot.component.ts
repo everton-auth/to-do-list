@@ -9,16 +9,16 @@ import { Websocket } from '../service/websocket.service';
 export class BootComponent implements OnInit {
 
   mensagem: any;
-  WebScoket: any;
+  Conexao: any;
   constructor(
     private ws: Websocket
   ) { }
 
   ngOnInit(): void {
-    this.WebScoket = this.ws.startWS().subscribe((res: any) => { console.log(res) })
+    this.Conexao = this.ws.StartConnection();
   }
-
+  
   clicked() {
-    this.ws.msg(this.WebScoket, this.mensagem);
+    this.Conexao = this.ws.EnviarMesnagem('olá');
   }
 }
