@@ -1,0 +1,21 @@
+<mat-card-title>Fazer Login</mat-card-title>
+<form fxLayout="column" [formGroup]="UserLogin">
+  <mat-form-field class="filho-form">
+    <mat-label>Usuário</mat-label>
+    <input type="text" matInput formControlName="DT_Email">
+    <mat-error *ngIf="UserLogin.controls['DT_Email'].status">Email Inválido</mat-error>
+  </mat-form-field>
+  <mat-form-field class="filho-form">
+    <mat-label>Senha</mat-label>
+    <input [type]="hide? 'text' : 'password'" matInput formControlName="DT_Password">
+    <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'"
+      [attr.aria-pressed]="hide">
+      <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+    </button>
+    <mat-error *ngIf="UserLogin.controls['DT_Email'].status">Senha Inválida</mat-error>
+  </mat-form-field>
+  <button mat-flat-button (click)="onLogin()" class="filho-form">Login</button>
+  <span fxLayoutAlign="start center" fxLayout="column" class="filho-form">
+    Ainda não tem cadastro?<a routerLink="/auth/subscriber"> Inscrever-se</a>
+  </span>
+</form>

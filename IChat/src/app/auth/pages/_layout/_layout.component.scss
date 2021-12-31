@@ -1,0 +1,32 @@
+::ng-deep {
+  app-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    animation: infinite 5s colorChange;
+    background: linear-gradient(45deg, #4580e7, #3505ea);
+    background-size: 200% 200%;
+    animation: infinite 3s colorChange;
+  }
+
+  @keyframes colorChange {
+    0% {
+      background-position: 0% 100%;
+    }
+
+    50% {
+      background-position: 100% 0%;
+    }
+
+    100% {
+      background-position: 0% 100%;
+
+    }
+  }
+
+  #Component {
+    background-color: #dedede;
+  }
+}
