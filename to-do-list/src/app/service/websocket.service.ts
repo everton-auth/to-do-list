@@ -16,12 +16,28 @@ export class Websocket {
 
   StartConnection() {
     this.conexao.on('SendMessage', (chat: string, message: string) => {
+      console.log(chat)
     })
     this.conexao.start();
   }
+
   EnviarMesnagem(message: string) {
-    this.conexao.send("SendMessage", message);
-    console.log(this.conexao.connectionId)
+    this.conexao.send("SendMessagePrivate")
+  }
+
+  SendMessageToGroup(group: string, message: string) {
+    this.conexao.send("SendMesssageToGroup", group, message)
+  }
+
+  SendMessagePrivate(user: string, message: string) {
+
+  }
+
+  AddToGroup(group: string, user: string) {
+    this.conexao.send("AddToGroup", user, group)
+  }
+  createGroup(groupName: String) {
+    this.conexao.send("CreateGroup", groupName)
   }
 }
 

@@ -10,7 +10,8 @@ export class BootComponent implements OnInit {
 
   mensagem: any;
   Conexao: any;
-  
+  grupo: any;
+
   constructor(
     private ws: Websocket
   ) { }
@@ -18,8 +19,11 @@ export class BootComponent implements OnInit {
   ngOnInit(): void {
     this.Conexao = this.ws.StartConnection();
   }
-  
+
   clicked() {
-    this.Conexao = this.ws.EnviarMesnagem('olá');
+    this.Conexao = this.ws.EnviarMesnagem(this.mensagem);
+  }
+  onCreateGroup(){
+    this.ws.createGroup(this.grupo);
   }
 }
