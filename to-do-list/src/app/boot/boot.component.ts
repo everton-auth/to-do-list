@@ -10,6 +10,7 @@ export class BootComponent implements OnInit {
 
   mensagem: any;
   Conexao: any;
+  
   constructor(
     private ws: Websocket
   ) { }

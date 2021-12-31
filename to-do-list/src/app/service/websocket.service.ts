@@ -1,27 +1,27 @@
 import { Injectable } from '@angular/core';
-import { HubConnection, HubConnectionBuilder } from '@microsoft/signalr';
+import { HttpTransportType, HubConnectionBuilder, LogLevel } from '@microsoft/signalr';
 
 @Injectable({
   providedIn: 'root'
 })
 export class Websocket {
   constructor() { }
-  wsURI: string = "http://localhost:5000/teste";
-  conexao = new HubConnectionBuilder().withUrl(this.wsURI).build();
+  wsURI: string = "http://localhost:5098/chat";
+  conexao = new HubConnectionBuilder().configureLogging(LogLevel.Debug).withAutomaticReconnect().withUrl(this.wsURI, {
+    skipNegotiation: true,
+    transport: HttpTransportType.WebSockets,
+  }).build();
+
   messages: any[] = [];
 
   StartConnection() {
-    this.conexao.on('newMessage', (chat: string, message: string) => {
-      this.messages.push({
-        text: message,
-        user: chat
-      })
+    this.conexao.on('SendMessage', (chat: string, message: string) => {
     })
-    console.log(this.conexao.state);
     this.conexao.start();
   }
-  EnviarMesnagem(mensagem: string) {
-   this.conexao.send("newMessage", mensagem);
+  EnviarMesnagem(message: string) {
+    this.conexao.send("SendMessage", message);
+    console.log(this.conexao.connectionId)
   }
 }
 
