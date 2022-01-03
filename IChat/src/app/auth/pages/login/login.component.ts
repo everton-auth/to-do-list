@@ -1,4 +1,3 @@
-import { UserInterface } from './../../../modules/commons/interface/User.Interface';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 

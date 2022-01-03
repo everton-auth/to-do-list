@@ -1,0 +1,23 @@
+::ng-deep {
+  app-subscribe {
+    width: 100% !important;
+  }
+}
+
+form {
+  width: 100%;
+  /* Tamanho da Fonte do Formulário */
+
+  mat-form-field {
+    width: 100%;
+  }
+
+  .filho-form {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+
+mat-card-title {
+  text-align: center;
+}
