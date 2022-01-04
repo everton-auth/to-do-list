@@ -1,0 +1,28 @@
+<mat-drawer-container fxFlex>
+  <!-- Barra Lateral -->
+  <mat-drawer #drawer mode="side" opened fxLayout="column" fxFlex="300px">
+    <mat-toolbar color="accent" fxLayoutAlign="space-between center" fxFlex>
+      <button mat-icon-button [matMenuTriggerFor]="menu">
+        <mat-icon>more_vert</mat-icon>
+      </button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item>Item 1</button>
+        <button mat-menu-item>Item 2</button>
+      </mat-menu>
+    </mat-toolbar>
+
+<!--     <mat-button-toggle-group fxLayout="column">
+      <mat-button-toggle routerLink="1" routerLinkActive="mat-button-toggle-checked">Bold</mat-button-toggle>
+      <mat-button-toggle routerLink="2" routerLinkActive="mat-button-toggle-checked">Italic</mat-button-toggle>
+      <mat-button-toggle routerLink="3" routerLinkActive="mat-button-toggle-checked">Underline</mat-button-toggle>
+    </mat-button-toggle-group> -->
+
+  </mat-drawer>
+
+
+  <!-- Router outlet -->
+  <mat-drawer-content fxFlex fxLayout="column">
+<!--     <mat-progress-bar mode="indeterminate" color="primary"></mat-progress-bar> -->
+    <router-outlet fxFlex></router-outlet>
+  </mat-drawer-content>
+</mat-drawer-container>
