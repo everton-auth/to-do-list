@@ -22,4 +22,11 @@
     }
   }
 
+  mat-drawer-container {
+    $margem: 30px;
+    margin: $margem;
+    width: calc(100% - ($margem * 2));
+    height: calc(100% - ($margem * 2));
+  }
+
 }

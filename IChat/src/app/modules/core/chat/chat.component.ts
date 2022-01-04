@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./chat.component.scss']
 })
 export class ChatComponent implements OnInit {
-  chat: any;
+  chat ='aa';
   constructor() { }
 
   ngOnInit() {
