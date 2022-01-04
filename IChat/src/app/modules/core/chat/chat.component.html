@@ -1,3 +1,16 @@
-<mat-toolbar color="accent">
-    <span>Josué</span>
-</mat-toolbar>
+<mat-card class="no-padding" fxFlex fxLayout="column">
+  <ng-container *ngIf="chat">
+    <mat-toolbar color="accent" fxFlex="10">
+      <span>Josué</span>
+    </mat-toolbar>
+    <mat-card-content fxFlex>
+
+    </mat-card-content>
+  </ng-container>
+
+  <ng-container *ngIf="!chat">
+    <mat-card-content fxFlex fxLayoutAlign="center center" class="no-chat">
+      Selecione um Chat
+    </mat-card-content>
+  </ng-container>
+</mat-card>

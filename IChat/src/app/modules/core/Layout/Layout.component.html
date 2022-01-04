@@ -1,4 +1,4 @@
-<mat-toolbar color="primary" fxFlex="10" fxLayoutAlign="space-between center">
+<mat-toolbar color="accent" fxFlex="10" fxLayoutAlign="space-between center">
   <h1> {{ user }}</h1>
   <button mat-icon-button [matMenuTriggerFor]="menu">
     <mat-icon>more_vert</mat-icon>
@@ -13,14 +13,14 @@
   <!-- Barra Lateral -->
   <mat-drawer #drawer mode="side" opened>
     <mat-button-toggle-group fxLayout="column">
-      <mat-button-toggle routerLink="1">Bold</mat-button-toggle>
-      <mat-button-toggle routerLink="2">Italic</mat-button-toggle>
-      <mat-button-toggle routerLink="3">Underline</mat-button-toggle>
+      <mat-button-toggle routerLink="1" routerLinkActive="mat-button-toggle-checked">Bold</mat-button-toggle>
+      <mat-button-toggle routerLink="2" routerLinkActive="mat-button-toggle-checked">Italic</mat-button-toggle>
+      <mat-button-toggle routerLink="3" routerLinkActive="mat-button-toggle-checked">Underline</mat-button-toggle>
     </mat-button-toggle-group>
   </mat-drawer>
   <!-- Router outlet -->
   <mat-drawer-content fxFlex fxLayout="column">
-    <mat-progress-bar mode="indeterminate" color="accent"></mat-progress-bar>
+    <mat-progress-bar mode="indeterminate" color="primary"></mat-progress-bar>
     <router-outlet fxFlex></router-outlet>
   </mat-drawer-content>
 </mat-drawer-container>
