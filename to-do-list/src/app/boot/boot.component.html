@@ -10,7 +10,12 @@
     <button mat-raised-button color="primary" style="width: 25%;" (click)="ngOnInit()">reconectar</button>
 </span>
 <div fxflex fxLayout="column" fxLayoutAlign=" start center">
-    <mat-card class="list" fxFlex="40px 200px">
-        a
+    <mat-card class="list" fxFlex="40px 200px" fxLayout="column">
+        <mat-card-title>Criar grupo</mat-card-title>
+        <mat-form-field appearance="fill">
+            <mat-label>Nome do grupo</mat-label>
+            <input matInput [(ngModel)]="grupo">
+        </mat-form-field>
+        <button mat-raised-button color="primary" style="width: 25%;" (click)="onCreateGroup()">CriarGrupo</button>
     </mat-card>
 </div>
