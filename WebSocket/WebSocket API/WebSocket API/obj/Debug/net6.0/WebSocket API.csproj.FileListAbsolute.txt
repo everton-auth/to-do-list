@@ -12,7 +12,6 @@ C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket A
 C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\bin\Debug\net6.0\System.Net.WebSockets.WebSocketProtocol.dll
-C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\obj\Debug\net6.0\WebSocket API.csproj.AssemblyReference.cache
 C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\obj\Debug\net6.0\WebSocket API.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\obj\Debug\net6.0\WebSocket API.AssemblyInfoInputs.cache
 C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\obj\Debug\net6.0\WebSocket API.AssemblyInfo.cs
@@ -26,3 +25,4 @@ C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket A
 C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\obj\Debug\net6.0\ref\WebSocket API.dll
 C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\obj\Debug\net6.0\WebSocket API.pdb
 C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\obj\Debug\net6.0\WebSocket API.genruntimeconfig.cache
+C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\obj\Debug\net6.0\WebSocket API.csproj.AssemblyReference.cache

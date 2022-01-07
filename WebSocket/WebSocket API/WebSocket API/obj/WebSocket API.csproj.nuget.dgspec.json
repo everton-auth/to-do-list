@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Workstation\\to-do-list\\WebSocket\\WebSocket API\\WebSocket API\\WebSocket API.csproj": {}
+    "C:\\Users\\everton.auth\\Workstation\\to-do-list\\WebSocket\\WebSocket API\\WebSocket API\\WebSocket API.csproj": {}
   },
   "projects": {
-    "C:\\Workstation\\to-do-list\\WebSocket\\WebSocket API\\WebSocket API\\WebSocket API.csproj": {
+    "C:\\Users\\everton.auth\\Workstation\\to-do-list\\WebSocket\\WebSocket API\\WebSocket API\\WebSocket API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Workstation\\to-do-list\\WebSocket\\WebSocket API\\WebSocket API\\WebSocket API.csproj",
+        "projectUniqueName": "C:\\Users\\everton.auth\\Workstation\\to-do-list\\WebSocket\\WebSocket API\\WebSocket API\\WebSocket API.csproj",
         "projectName": "WebSocket API",
-        "projectPath": "C:\\Workstation\\to-do-list\\WebSocket\\WebSocket API\\WebSocket API\\WebSocket API.csproj",
-        "packagesPath": "C:\\Users\\Everton\\.nuget\\packages\\",
-        "outputPath": "C:\\Workstation\\to-do-list\\WebSocket\\WebSocket API\\WebSocket API\\obj\\",
+        "projectPath": "C:\\Users\\everton.auth\\Workstation\\to-do-list\\WebSocket\\WebSocket API\\WebSocket API\\WebSocket API.csproj",
+        "packagesPath": "C:\\Users\\everton.auth\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\everton.auth\\Workstation\\to-do-list\\WebSocket\\WebSocket API\\WebSocket API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "E:\\Program Files\\SDK\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Everton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\everton.auth\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -71,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

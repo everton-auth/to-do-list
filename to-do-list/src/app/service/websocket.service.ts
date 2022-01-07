@@ -22,7 +22,7 @@ export class Websocket {
   }
 
   EnviarMesnagem(message: string) {
-    this.conexao.send("SendMessagePrivate")
+    this.conexao.send("SendMessagePrivate");
   }
 
   SendMessageToGroup(group: string, message: string) {
