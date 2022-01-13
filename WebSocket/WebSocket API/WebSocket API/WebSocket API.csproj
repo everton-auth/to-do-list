@@ -12,4 +12,9 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\mega-csharpcommons\Commons\Commons.csproj" />
+    <ProjectReference Include="..\..\..\..\mesp-api\MESP-API\MESP-API.csproj" />
+  </ItemGroup>
+
 </Project>

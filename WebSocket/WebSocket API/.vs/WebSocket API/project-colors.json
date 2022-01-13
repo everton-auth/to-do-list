@@ -5,7 +5,22 @@
       "ProjectGuid": "85456d94-b851-424f-ba8c-17f41d8006a2",
       "DisplayName": "WebSocket API",
       "ColorIndex": 0
+    },
+    "7eafcfd4-00d1-4300-ac83-831123f5ea8a": {
+      "ProjectGuid": "7eafcfd4-00d1-4300-ac83-831123f5ea8a",
+      "DisplayName": "MESP-API",
+      "ColorIndex": 1
+    },
+    "2c162ec3-9c8b-47d2-bf0f-da88dddf1d22": {
+      "ProjectGuid": "2c162ec3-9c8b-47d2-bf0f-da88dddf1d22",
+      "DisplayName": "Commons",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 3
 }

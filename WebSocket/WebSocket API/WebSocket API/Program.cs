@@ -18,7 +18,6 @@ app.UseAuthorization();
 app.UseWebSockets();
 
 app.MapHub<coletorHub>( "/coletor" );
-app.MapHub<chatHub>( "/chat" );
-app.MapHub<TabelaHub>( "/Tabelas" );
+//app.MapHub<TabelaHub>( "/Tabelas" );
 
 app.Run();

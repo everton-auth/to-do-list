@@ -4,6 +4,40 @@
     "C:\\Users\\everton.auth\\Workstation\\to-do-list\\WebSocket\\WebSocket API\\WebSocket API\\WebSocket API.csproj": {}
   },
   "projects": {
+    "C:\\Users\\everton.auth\\Workstation\\mega-csharpcommons\\Commons\\Commons.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\everton.auth\\Workstation\\mega-csharpcommons\\Commons\\Commons.csproj",
+        "projectName": "Commons",
+        "projectPath": "C:\\Users\\everton.auth\\Workstation\\mega-csharpcommons\\Commons\\Commons.csproj",
+        "frameworks": {
+          "net461": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    },
+    "C:\\Users\\everton.auth\\Workstation\\mesp-api\\MESP-API\\MESP-API.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\everton.auth\\Workstation\\mesp-api\\MESP-API\\MESP-API.csproj",
+        "projectName": "MESP-API",
+        "projectPath": "C:\\Users\\everton.auth\\Workstation\\mesp-api\\MESP-API\\MESP-API.csproj",
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "C:\\Users\\everton.auth\\Workstation\\mega-csharpcommons\\Commons\\Commons.csproj": {
+                "projectPath": "C:\\Users\\everton.auth\\Workstation\\mega-csharpcommons\\Commons\\Commons.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    },
     "C:\\Users\\everton.auth\\Workstation\\to-do-list\\WebSocket\\WebSocket API\\WebSocket API\\WebSocket API.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -33,7 +67,14 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\everton.auth\\Workstation\\mega-csharpcommons\\Commons\\Commons.csproj": {
+                "projectPath": "C:\\Users\\everton.auth\\Workstation\\mega-csharpcommons\\Commons\\Commons.csproj"
+              },
+              "C:\\Users\\everton.auth\\Workstation\\mesp-api\\MESP-API\\MESP-API.csproj": {
+                "projectPath": "C:\\Users\\everton.auth\\Workstation\\mesp-api\\MESP-API\\MESP-API.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

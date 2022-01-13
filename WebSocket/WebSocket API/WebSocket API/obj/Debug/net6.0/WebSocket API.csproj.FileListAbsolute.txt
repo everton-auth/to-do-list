@@ -26,3 +26,31 @@ C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket A
 C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\obj\Debug\net6.0\WebSocket API.pdb
 C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\obj\Debug\net6.0\WebSocket API.genruntimeconfig.cache
 C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\obj\Debug\net6.0\WebSocket API.csproj.AssemblyReference.cache
+C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\bin\Debug\net6.0\Commons.dll
+C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\bin\Debug\net6.0\MESP-API.dll
+C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\bin\Debug\net6.0\WebActivatorEx.dll
+C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\bin\Debug\net6.0\Swashbuckle.Core.dll
+C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\bin\Debug\net6.0\System.Web.Http.dll
+C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\bin\Debug\net6.0\System.Web.Http.Cors.dll
+C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\bin\Debug\net6.0\EntityFramework.dll
+C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\bin\Debug\net6.0\System.Web.Http.WebHost.dll
+C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\bin\Debug\net6.0\Z.EntityFramework.Plus.EF6.dll
+C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\bin\Debug\net6.0\Polly.dll
+C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
+C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\bin\Debug\net6.0\System.Web.Cors.dll
+C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\bin\Debug\net6.0\Commons.pdb
+C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\bin\Debug\net6.0\Commons.dll.config
+C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\bin\Debug\net6.0\MESP-API.pdb
+C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\bin\Debug\net6.0\MESP-API.dll.config
+C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\bin\Debug\net6.0\System.Web.Http.xml
+C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\bin\Debug\net6.0\System.Web.Http.Cors.xml
+C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\bin\Debug\net6.0\AutoMapper.pdb
+C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\bin\Debug\net6.0\AutoMapper.xml
+C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\bin\Debug\net6.0\EntityFramework.xml
+C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\bin\Debug\net6.0\System.Web.Http.WebHost.xml
+C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\bin\Debug\net6.0\Z.EntityFramework.Plus.EF6.xml
+C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\bin\Debug\net6.0\Polly.pdb
+C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\bin\Debug\net6.0\Polly.xml
+C:\Users\everton.auth\Workstation\to-do-list\WebSocket\WebSocket API\WebSocket API\bin\Debug\net6.0\System.Net.Http.Formatting.xml
